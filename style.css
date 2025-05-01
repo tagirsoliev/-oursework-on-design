@@ -10,16 +10,19 @@ h2,
 h3,
 p,
 li,
-a {
+a,
+ul {
     color: #008BD0;
     text-decoration: none;
     margin: 0;
     font-family: "M PLUS 1p";
+    font-weight: 400;
 }
 
-.colorLink{
+.colorLink {
     color: #9A99E1;
 }
+
 .imgLink {
     width: 70px;
     height: 70px;
@@ -60,16 +63,19 @@ h1 {
     display: flex;
     align-items: center;
 }
-.cover{
+
+.cover {
     width: 1536px;
     height: 549px;
     background-image: url(/imgs/image\ 7.svg);
 }
-.coverText{
+
+.coverText {
     color: #F5EDF0;
     font-size: 40px;
 }
-.btn{
+
+.btn {
     width: 300px;
     height: 60px;
     font-size: 24px;
@@ -83,6 +89,87 @@ h1 {
     box-shadow: 0 4px 4px 5px rgba(00, 00, 00, 0.25);
     margin-top: 10px;
 }
-.coverInfo{
+
+.coverInfo {
     margin-left: 10px;
+}
+
+.upperMain {
+    display: flex;
+    height: 1003px;
+    justify-content: space-between;
+    margin-top: 106px;
+}
+
+.miniCatalog {
+    width: 602px;
+    height: 1003px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutUs {
+    width: 778px;
+    height: 1003px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleAboutUs {
+    font-size: 48px;
+    text-align: center;
+    color: #9A99E1;
+}
+
+.textAboutUs {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.paymentAndDelivery {
+    height: 709px;
+    flex-direction: column;
+    margin-top: 107px;
+}
+
+.aboutDelivery {
+    font-size: 21px;
+}
+
+.upperPayment {
+    display: flex;
+    height: 449pxpx;
+}
+
+.imgPayment {
+    width: 1090px;
+    height: 449px;
+}
+.bottomPayment{
+    display: flex;
+    height: 192px;
+    font-size: 32px;
+    justify-content: space-between;
+    margin-top: 68px;
+}
+.paymentInfo{
+    color: #9A99E1;
+}
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 29px;
+}
+.titleFAQ{
+    font-size: 48px;
+    margin-bottom: 11px;
+}
+footer{
+    margin-top: 48px;
+    height: 272px;
+    background-color: #DCBDDF;
+    font-size: 32px;
 }
