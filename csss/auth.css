@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=M+PLUS+1p&display=swap');
+
+body {
+    margin: 0;
+    background-color: #F5EDF0;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+a,
+ul,
+label {
+    color: #008BD0;
+    text-decoration: none;
+    margin: 0;
+    font-family: "M PLUS 1p";
+    font-weight: 400;
+}
+
+.linkToBack {
+    font-size: 36px;
+    color: #DCBDDF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 4px;
+    height: auto;
+    width: 163px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 204px;
+}
+
+h1 {
+    font-size: 64px;
+    color: #008BD0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 24px;
+    margin-left: 13px;
+    margin-bottom: 0;
+}
+
+input {
+    width: 642px;
+    height: 58px;
+    border: 1px solid #9A99E1;
+    background-color: #E5E5E5;
+    border-radius: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 479px;
+}
+
+.links {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    text-align: center;
+    margin: 108px 175px 0 175px;
+    width: 292px;
+    height: 60px;
+    background-color: #DCBDDF;
+    border: 1px solid #9A99E1;
+    border-radius: 15px;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+.toAuth{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.form{
+    height: 222px;
+}

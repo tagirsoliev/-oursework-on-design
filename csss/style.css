@@ -146,28 +146,33 @@ h1 {
     width: 1090px;
     height: 449px;
 }
-.bottomPayment{
+
+.bottomPayment {
     display: flex;
     height: 192px;
     font-size: 32px;
     justify-content: space-between;
     margin-top: 68px;
 }
-.paymentInfo{
+
+.paymentInfo {
     color: #9A99E1;
 }
-.FAQ{
+
+.FAQ {
     display: flex;
     flex-direction: column;
     text-align: center;
     font-size: 32px;
     margin-top: 29px;
 }
-.titleFAQ{
+
+.titleFAQ {
     font-size: 48px;
     margin-bottom: 11px;
 }
-footer{
+
+footer {
     margin-top: 48px;
     height: 272px;
     background-color: #DCBDDF;
