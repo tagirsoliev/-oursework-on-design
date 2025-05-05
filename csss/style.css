@@ -178,3 +178,48 @@ footer {
     background-color: #DCBDDF;
     font-size: 32px;
 }
+.oneProduct{
+    width: 602px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    margin-bottom: 32px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    width: 224px;
+    margin-right: 93px;
+}
+.price{
+    font-size: 24px;
+    color: #E46262;
+    margin-right: 22px;
+    vertical-align: middle;
+    width: 107px;
+}
+.callBtn{
+    width: 156px;
+    height: 51px;
+    background-color: #E46262;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-size: 32px;
+}
+.productPreview{
+    background-color: white;
+    border: 2px solid #008BD0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.infoAbtProduct{
+    display: flex;
+    flex-direction: row;
+}
+.classnaya{
+    width: 230px;
+    margin-right: 87px;
+}
