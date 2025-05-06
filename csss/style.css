@@ -223,3 +223,22 @@ h3{
     width: 230px;
     margin-right: 87px;
 }
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+.imgsLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 272px;
+    align-items: center;
+}
+.VK{
+    width: 100px;
+    height: 100px;
+}
+.TG{
+    width: 100px;
+    height: 100px;
+}

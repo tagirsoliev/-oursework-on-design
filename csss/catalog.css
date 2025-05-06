@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=M+PLUS+1p&display=swap');
+
+body {
+    background-color: #F5EDF0;
+    margin: 0;
+}
+
+img {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+a,
+ul {
+    color: #008BD0;
+    text-decoration: none;
+    margin: 0;
+    font-family: "M PLUS 1p";
+    font-weight: 400;
+}
+
+.oneProduct {
+    width: 602px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 224px;
+    margin-right: 93px;
+}
+
+.price {
+    font-size: 24px;
+    color: #E46262;
+    margin-right: 22px;
+    vertical-align: middle;
+    width: 107px;
+}
+
+.callBtn {
+    width: 156px;
+    height: 51px;
+    background-color: #E46262;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-size: 32px;
+}
+
+.productPreview {
+    background-color: white;
+    border: 2px solid #008BD0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.infoAbtProduct {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkToBack {
+    font-size: 36px;
+    color: #DCBDDF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 67px;
+    width: 256px;
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.sorting {
+    display: flex;
+    flex-direction: column;
+    height: 634px;
+    margin-left: 24px;
+    width: auto;
+}
+
+.mainCatalog {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.oneLineOfProduct {
+    display: flex;
+    width: 1224px;
+    height: 313px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.headerMain {
+    display: flex;
+    width: 100%;
+}
+
+.topUl {
+    margin-top: 53px;
+    margin-bottom: 136px;
+}
+
+ul {
+    font-size: 24px;
+    list-style-type: none;
+    justify-content: start;
+    padding: 0;
+}
+
+li {
+    color: #9A99E1;
+}
+
+h2 {
+    font-size: 24px;
+    color: #9A99E1;
+    margin-top: 71px;
+}
+
+h1 {
+    font-size: 48px;
+    align-self: center;
+    width: 100%;
+}
+
+.divForH1 {
+    width: 100%;
+    text-align: center;
+}
+.arrowPre{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 255px;
+}
+.arrowNext{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 255px;
+    width: 1224px;
+    justify-content: flex-end;
+}
+.imgArrowNext{
+    transform: rotate(180deg)
+}
