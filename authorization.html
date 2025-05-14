@@ -5,33 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вход</title>
-    <link rel="stylesheet" href="/csss/auth.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
     <header>
-        <a href="/index.html" class="linkToBack"><img src="/imgs/icon-park-solid_back.svg" alt="">Назад</a>
+        <div class="header-top-line">
+            <div class="container inside-top-line">
+                <p class="adress"><img src="/imgs/arrow-down.png" alt="" class="img-as-adress">Москва</p>
+                <div id="gray-links">
+                    <a href="">Акции</a>
+                    <a href="">Доставка</a>
+                    <a href="">Бонусы</a>
+                    <a href="">Сотрудничество</a>
+                </div>
+                <a class="link-to-auth" href="/authorization.html"><img src="/imgs/profile.png" alt="">Личный
+                    кабинет</a>
+            </div>
+        </div>
+        <div class="middle-line container">
+            <a href="/index.html">
+                <h1>Матрасиум</h1>
+            </a>
+            <form action="get" class="search">
+                <input class="search-line" type="search"><input class="search-icon" type="button">
+            </form>
+            <p class="number">8 987 654 32 10</p>
+            <div class="icons-as-menu">
+                <img src="/imgs/comparison.png" alt="">
+                <img src="/imgs/liked.png" alt="">
+                <img src="/imgs/buy.svg" alt="">
+            </div>
+        </div>
+        <div class="bottom-line container">
+            <a class="first-link-in-bottom-line" href="">Магазины</a>
+            <a href="">Матрасы</a>
+            <a href="">Кровати</a>
+            <a href="">Подушки</a>
+            <a href="">Мебель</a>
+            <a href="">Аксессуары</a>
+            <a class="last-link-in-bottom-line" href="">Светильники</a>
+        </div>
     </header>
-    <main>
-        <div>
-            <h1>Вход</h1>
+    <main class="main-auth">
+        <div class="main-in-auth">
+            <h1 class="auth">Вход</h1>
             <form action="get" class="form">
                 <div>
                     <label for="login">Логин</label>
-                    <input type="text" name="Логин">
+                    <input class="input-in-auth" type="text" name="Логин">
                 </div>
                 <div>
                     <label for="password">Пароль</label>
-                    <input type="password">
+                    <input class="input-in-auth" type="password">
                 </div>
             </form>
-            <div class="links">
+            <div class="links-in-auth">
                 <a href="/registration.html">Забыли пароль?</a>
-                <a href="/registration.html">Регистрация</a>
+                <a href="/registration.html">Нет аккаунта?</a>
             </div>
-            <button type="submit">Вход</button>
+            <div class="button-center-div"><button type="submit" class="call-button btn-in-auth">Вход</button></div>
         </div>
     </main>
+    <footer>
+        <div class="container footer">
+            <div class="first-footer-block">
+                <h2 class="footer-text">По всем вопросам обращайтесь</h2>
+                <div class="main-text-in-footer">
+                    <a href="" class="footer-text">8 987 654 32-10</a>
+                    <a href="" class="footer-text">mail@mail.ru</a>
+                    <a href="" class="footer-text">Москва, улица уличная, дом 3</a>
+                </div>
+            </div>
+            <div class="second-footer-block">
+                <h2 class="footer-text">Товары</h2>
+                <div class="main-text-in-footer">
+                    <a href="" class="footer-text-smaller">Матрасы</a>
+                    <a href="" class="footer-text-smaller">Кровати</a>
+                    <a href="" class="footer-text-smaller">Подушки</a>
+                    <a href="" class="footer-text-smaller">Мебель</a>
+                    <a href="" class="footer-text-smaller">Аксессуары</a>
+                    <a href="" class="footer-text-smaller">Светильники</a>
+                </div>
+            </div>
+            <div class="third-footer-block">
+                <h2 class="footer-text">Информация для покупателей</h2>
+                <div class="main-text-in-footer">
+                    <a href="" class="footer-text-smaller">Как сделать заказ</a>
+                    <a href="" class="footer-text-smaller">Доставка и оплата</a>
+                    <a href="" class="footer-text-smaller">Отследить заказ</a>
+                    <a href="" class="footer-text-smaller">Гарантии</a>
+                    <a href="" class="footer-text-smaller">Способы оплаты</a>
+                    <a href="" class="footer-text-smaller">Конфиденциальность</a>
+                    <a href="" class="footer-text-smaller">Блог</a>
+                    <a href="" class="footer-text-smaller">Магазины</a>
+                    <a href="" class="footer-text-smaller">Регионы доставка</a>
+                </div>
+            </div>
+    </footer>
 </body>
 
 </html>
