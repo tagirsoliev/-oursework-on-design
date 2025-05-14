@@ -19,7 +19,8 @@ h3,
 a,
 button,
 h4,
-label {
+label,
+span {
     text-decoration: none;
     margin: 0;
     font-family: "M PLUS 1p";
@@ -274,8 +275,14 @@ h3 {
     cursor: pointer;
 }
 
-.font-size-12 {
-    font-size: 12px;
+.font-size-12{
+        font-size: 12px;
+}
+.font-size-12-in-catalog {
+    display: flex;
+    width: 31px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .font-size-14 {
@@ -505,30 +512,35 @@ input {
 
 .sorting-container {
     width: 302px;
-    height: 1105px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     margin: 30px 0 auto 9px;
 }
-.main-catalog{
+
+.main-catalog {
     display: flex;
 }
-.one-sort{
+
+.one-sort {
     width: 301px;
     height: 92px;
     margin-bottom: 20px;
 }
-.type{
+
+.type {
     font-weight: bold;
     font-size: 16px;
+    margin-bottom: 10px;
 }
-.two-lines-options{
+
+.two-lines-options {
     display: flex;
     flex-wrap: wrap;
     height: 58px;
-    justify-content: space-between;
 }
-.option{
+
+.option {
     background-color: white;
     font-size: 16px;
     height: 24px;
@@ -536,4 +548,136 @@ input {
     text-align: center;
     vertical-align: middle;
     border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form-in-sorting {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-sorting-group {
+    display: flex;
+    width: 127px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #C2C2C2;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.label-for-sorting {
+    font-size: 16px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.input-in-sorting {
+    width: 90px;
+    border: none;
+    padding-left: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.sorting-color {
+    border-radius: 50%;
+    border: none;
+    width: 15px;
+    height: 15px;
+}
+
+.btn-to-all-filters {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #DCBDDF;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.center-button-sorting {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.road-in-site {
+    margin: 30px auto 30px 20px;
+    color: #505050;
+    font-size: 16px;
+}
+
+.catalog-preview {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.catalog-block {
+    display: flex;
+    flex-direction: column;
+    width: 1226px;
+}
+
+.margin-rigth {
+    width: 212px;
+    height: 1372px;
+}
+
+.products-of-catalog {
+    width: 1226px;
+    height: 100%;
+    margin: 10px 0 0 20px;
+}
+
+.sorting-by-popular {
+    font-size: 20px;
+    width: 100%;
+    text-align: end;
+}
+.one-card-of-product-main{
+    height: 360px;
+    border: none;
+    width: 300px;
+}
+.top-line-in-card-main{
+    width: 71px;
+    justify-content: space-between;
+    text-align: end;
+    margin-left: 221px;
+}
+.icon-in-card{
+    width: 12px;
+    height: 12px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.sizes-in-card{
+    width: 123px;
+    display: flex;
+    justify-content: space-between;
+}
+.font-size-10{
+    font-size: 10px;
+    margin: 7px auto 7px auto;
+}
+.status-in-card{
+    color: green;
+    font-size: 10px;
+}
+.bottom-line-in-card-main{
+    width: 217px;
+}
+.one-line-of-catalog{
+    width: 100%;
+    justify-content: space-between;
+    height: 360px;
+    display: flex;
 }
